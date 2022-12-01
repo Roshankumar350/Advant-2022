@@ -12,3 +12,4 @@ import Foundation
  * Solution:  Navigation to `Logic1.swift` for answer
  */
 findMaxCalories()
+findSumOfTopThreeCalories()

@@ -27,3 +27,26 @@ func findMaxCalories() {
     
     print(maxCalories)
 }
+
+func findSumOfTopThreeCalories() {
+    let inputArray = data1.components(separatedBy: .whitespacesAndNewlines)
+    
+    var cumulativeCaloriesSumArray = [Int]()
+    
+    var cumulativeCalories = 0
+
+    for eachNumber in inputArray {
+        if let number = Int(eachNumber) {
+            cumulativeCalories += number
+        } else {
+            cumulativeCaloriesSumArray.append(cumulativeCalories)
+            cumulativeCalories = 0
+        }
+    }
+    
+    
+    cumulativeCaloriesSumArray = cumulativeCaloriesSumArray.sorted(by: <).suffix(3)
+    
+    let sumOfTopThreeCalories = cumulativeCaloriesSumArray.reduce(0, +)
+    print(sumOfTopThreeCalories)
+}
