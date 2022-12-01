@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8208739C2938E9D300CAA16A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8208739B2938E9D300CAA16A /* main.swift */; };
+		820873A42938F5CE00CAA16A /* Data1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820873A32938F5CE00CAA16A /* Data1.swift */; };
+		820873A62938F5DA00CAA16A /* Logic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820873A52938F5DA00CAA16A /* Logic1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		820873982938E9D300CAA16A /* Advant-2022 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advant-2022"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8208739B2938E9D300CAA16A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		820873A32938F5CE00CAA16A /* Data1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data1.swift; sourceTree = "<group>"; };
+		820873A52938F5DA00CAA16A /* Logic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				8208739B2938E9D300CAA16A /* main.swift */,
+				820873A22938F58C00CAA16A /* Day1 */,
 			);
 			path = "Advant-2022";
+			sourceTree = "<group>";
+		};
+		820873A22938F58C00CAA16A /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				820873A32938F5CE00CAA16A /* Data1.swift */,
+				820873A52938F5DA00CAA16A /* Logic1.swift */,
+			);
+			path = Day1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820873A62938F5DA00CAA16A /* Logic1.swift in Sources */,
 				8208739C2938E9D300CAA16A /* main.swift in Sources */,
+				820873A42938F5CE00CAA16A /* Data1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,5 +7,8 @@
 
 import Foundation
 
-print("Hello, World!")
-
+/* Day 1:
+ * Problem Statement: https://adventofcode.com/2022/day/1
+ * Solution:  Navigation to `Logic1.swift` for answer
+ */
+findMaxCalories()
