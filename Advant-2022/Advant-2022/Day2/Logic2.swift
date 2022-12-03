@@ -40,7 +40,7 @@ enum Scores: String {
     
     
     // Rock defeats Scissors, Scissors defeats Paper, and Paper defeats Rock.
-    static func getOutcome(for opponentShape: Shape, yourShape: Shape) -> Int {
+    static func getWinningScore(for opponentShape: Shape, yourShape: Shape) -> Int {
         switch (opponentShape, yourShape) {
         case (.rock , .rock):
             return 3
@@ -65,7 +65,7 @@ enum Scores: String {
     }
 }
 
-func findFindTotalScores() {
+func findTotalScores() {
     let eachLines = data2.components(separatedBy: .newlines)
     
     var cummulativeSum = 0
@@ -78,7 +78,7 @@ func findFindTotalScores() {
         let yourValue = Character(twoValues.last ?? "")
         let yourScore = Scores.getScores(for: yourValue)
         
-        let outcomeScore = Scores.getOutcome(for: Shape(char: opponentValue), yourShape: Shape(char: yourValue)) + yourScore
+        let outcomeScore = Scores.getWinningScore(for: Shape(char: opponentValue), yourShape: Shape(char: yourValue)) + yourScore
         
         cummulativeSum += outcomeScore
     }

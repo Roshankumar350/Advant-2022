@@ -20,4 +20,4 @@ import Foundation
  * Problem Statement: https://adventofcode.com/2022/day/2
  * Solution:  Navigation to `Logic2.swift` for answer
  */
-findFindTotalScores()
+findTotalScores()
