@@ -11,5 +11,13 @@ import Foundation
  * Problem Statement: https://adventofcode.com/2022/day/1
  * Solution:  Navigation to `Logic1.swift` for answer
  */
-findMaxCalories()
-findSumOfTopThreeCalories()
+
+// Uncomment function to execute it
+// findMaxCalories()
+// findSumOfTopThreeCalories()
+
+/* Day 2:
+ * Problem Statement: https://adventofcode.com/2022/day/2
+ * Solution:  Navigation to `Logic2.swift` for answer
+ */
+findFindTotalScores()
