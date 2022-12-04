@@ -25,5 +25,11 @@ import Foundation
 // findTotalScorePart1()
 // findTotalScorePart2()
 
+/* Day 3:
+ * Problem Statement: https://adventofcode.com/2022/day/3
+ * Solution:  Navigation to `Logic3.swift` for answer
+ */
 
-sumOfPriorityOfNumberPart1()
+// Uncomment function to execute it
+// sumOfPriorityOfNumberPart1()
+// sumOfPriorityOfNumberPart2()

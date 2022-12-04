@@ -53,3 +53,44 @@ func sumOfPriorityOfNumberPart1() {
     
     print(sum)
 }
+
+func sumOfPriorityOfNumberPart2() {
+    let eachLines = data3.components(separatedBy: .newlines)
+    
+    var clubbedLines = [String]()
+    
+    var clubbedLine = ""
+    for (lineIndex, eachLine)in eachLines.enumerated() {
+        clubbedLine += "\(eachLine)--"
+        
+        if (lineIndex+1).isMultiple(of: 3) {
+            clubbedLines.append(clubbedLine)
+            clubbedLine = ""
+        }
+    }
+    
+    var commonChars = [String]()
+    for eachClubbedLine in clubbedLines {
+        let lines = eachClubbedLine.components(separatedBy: "--").filter{ !$0.isEmpty }
+        var intersectionChars = Set(lines.first?.map{"\($0)"} ?? [""])
+        
+        // Please note, it will execute 3 times per loop execution
+        for (eachIndex, eachLine) in lines.enumerated() where eachIndex != 0 {
+            let otherSequence = Set(eachLine.map{ "\($0)" })
+            intersectionChars = intersectionChars.intersection(otherSequence)
+        }
+        
+        commonChars.append(contentsOf: Array(intersectionChars))
+    }
+    
+    let hashTable = createHashtable()
+    var sum = 0
+    
+    for char in commonChars {
+        if let num = hashTable[Character(char)] {
+            sum += num
+        }
+    }
+    
+    print(sum)
+}
