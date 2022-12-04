@@ -20,5 +20,16 @@ import Foundation
  * Problem Statement: https://adventofcode.com/2022/day/2
  * Solution:  Navigation to `Logic2.swift` for answer
  */
-findTotalScorePart1()
-findTotalScorePart2()
+
+// Uncomment function to execute it
+// findTotalScorePart1()
+// findTotalScorePart2()
+
+/* Day 3:
+ * Problem Statement: https://adventofcode.com/2022/day/3
+ * Solution:  Navigation to `Logic3.swift` for answer
+ */
+
+// Uncomment function to execute it
+// sumOfPriorityOfNumberPart1()
+// sumOfPriorityOfNumberPart2()
