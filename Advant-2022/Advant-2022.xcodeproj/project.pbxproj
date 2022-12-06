@@ -14,6 +14,8 @@
 		828A4FE1293BD93900960AFF /* Logic3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828A4FE0293BD93900960AFF /* Logic3.swift */; };
 		82CB8417293A48EB00F2EB27 /* Logic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB8416293A48EB00F2EB27 /* Logic2.swift */; };
 		82CB8419293A490700F2EB27 /* Data2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB8418293A490700F2EB27 /* Data2.swift */; };
+		82DF820A293CAD00008AD43D /* logic4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF8209293CAD00008AD43D /* logic4.swift */; };
+		82DF820C293CAD0C008AD43D /* Data4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF820B293CAD0C008AD43D /* Data4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		828A4FE0293BD93900960AFF /* Logic3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic3.swift; sourceTree = "<group>"; };
 		82CB8416293A48EB00F2EB27 /* Logic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic2.swift; sourceTree = "<group>"; };
 		82CB8418293A490700F2EB27 /* Data2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data2.swift; sourceTree = "<group>"; };
+		82DF8209293CAD00008AD43D /* logic4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logic4.swift; sourceTree = "<group>"; };
+		82DF820B293CAD0C008AD43D /* Data4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 				820873A22938F58C00CAA16A /* Day1 */,
 				82CB8415293A48C800F2EB27 /* Day2 */,
 				828A4FDD293BD8DC00960AFF /* Day3 */,
+				82DF8208293CACCA008AD43D /* Day4 */,
 			);
 			path = "Advant-2022";
 			sourceTree = "<group>";
@@ -102,6 +107,15 @@
 				82CB8418293A490700F2EB27 /* Data2.swift */,
 			);
 			path = Day2;
+			sourceTree = "<group>";
+		};
+		82DF8208293CACCA008AD43D /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				82DF8209293CAD00008AD43D /* logic4.swift */,
+				82DF820B293CAD0C008AD43D /* Data4.swift */,
+			);
+			path = Day4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DF820C293CAD0C008AD43D /* Data4.swift in Sources */,
 				820873A62938F5DA00CAA16A /* Logic1.swift in Sources */,
+				82DF820A293CAD00008AD43D /* logic4.swift in Sources */,
 				8208739C2938E9D300CAA16A /* main.swift in Sources */,
 				820873A42938F5CE00CAA16A /* Data1.swift in Sources */,
 				828A4FE1293BD93900960AFF /* Logic3.swift in Sources */,

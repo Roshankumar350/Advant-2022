@@ -33,3 +33,13 @@ import Foundation
 // Uncomment function to execute it
 // sumOfPriorityOfNumberPart1()
 // sumOfPriorityOfNumberPart2()
+
+
+/* Day 4:
+ * Problem Statement: https://adventofcode.com/2022/day/4
+ * Solution:  Navigation to `Logic3.swift` for answer
+ */
+
+// Uncomment function to execute it
+// findNumberOfRangeFullContainInOthersPart1()
+// findNumberOfRangeFullContainInOthersPart2()
