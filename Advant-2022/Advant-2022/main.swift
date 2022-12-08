@@ -37,9 +37,18 @@ import Foundation
 
 /* Day 4:
  * Problem Statement: https://adventofcode.com/2022/day/4
- * Solution:  Navigation to `Logic3.swift` for answer
+ * Solution:  Navigation to `Logic4.swift` for answer
  */
 
 // Uncomment function to execute it
 // findNumberOfRangeFullContainInOthersPart1()
 // findNumberOfRangeFullContainInOthersPart2()
+
+/* Day 5:
+ * Problem Statement: https://adventofcode.com/2022/day/5
+ * Solution:  Navigation to `Logic5.swift` for answer
+ */
+
+// Uncomment function to execute it
+// findCrateEndUpOnTopOfStackPart1()
+// findCrateEndUpOnTopOfStackPart2()
