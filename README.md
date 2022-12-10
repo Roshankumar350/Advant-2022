@@ -43,3 +43,12 @@ https://adventofcode.com/2022/day/5
 
 - Problem Statement Day 5 Solution:- <br />
 https://github.com/Roshankumar350/Advant-2022/tree/main/Advant-2022/Advant-2022/Day5
+
+
+## Advant Day6
+
+- Problem Statement Day 6:- <br />
+https://adventofcode.com/2022/day/6
+
+- Problem Statement Day 6 Solution:- <br />
+https://github.com/Roshankumar350/Advant-2022/tree/main/Advant-2022/Advant-2022/Day6

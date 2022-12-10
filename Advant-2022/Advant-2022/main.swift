@@ -52,3 +52,14 @@ import Foundation
 // Uncomment function to execute it
 // findCrateEndUpOnTopOfStackPart1()
 // findCrateEndUpOnTopOfStackPart2()
+
+
+/* Day 6:
+ * Problem Statement: https://adventofcode.com/2022/day/6
+ * Solution:  Navigation to `Logic6.swift` for answer
+ */
+
+// Uncomment function to execute it
+// findFirstMarkerInString(forSize: 4)
+// findFirstMarkerInString(forSize: 14)
+
