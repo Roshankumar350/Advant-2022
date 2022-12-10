@@ -60,3 +60,6 @@ import Foundation
  */
 
 // Uncomment function to execute it
+// findFirstMarkerInString(forSize: 4)
+// findFirstMarkerInString(forSize: 14)
+
