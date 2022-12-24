@@ -74,5 +74,3 @@ import Foundation
 // Uncomment function to execute it
 // findTotalSizePart1()
 // findTotalSizePart2()
-findTotalSizePart1()
-findTotalSizePart2()

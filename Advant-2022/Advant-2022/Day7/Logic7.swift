@@ -7,7 +7,7 @@
 
 import Foundation
 
-class File {
+private class File {
     let name: String
     let size: String
     init(name: String, size: String) {
