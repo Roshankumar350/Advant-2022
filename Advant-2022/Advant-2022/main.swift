@@ -63,3 +63,16 @@ import Foundation
 // findFirstMarkerInString(forSize: 4)
 // findFirstMarkerInString(forSize: 14)
 
+
+/* Day 7:
+ * Problem Statement: https://adventofcode.com/2022/day/7
+ * Solution:  Navigation to `Logic7.swift` for answer
+ * **THIS SOLUTION IS INCOMPLETE**
+ * WILL TRY TO WORK MORE TO GET THROUGH IT
+ */
+
+// Uncomment function to execute it
+// findTotalSizePart1()
+// findTotalSizePart2()
+findTotalSizePart1()
+findTotalSizePart2()

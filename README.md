@@ -60,4 +60,5 @@ https://github.com/Roshankumar350/Advant-2022/tree/main/Advant-2022/Advant-2022/
 https://adventofcode.com/2022/day/7
 
 - Problem Statement Day 7 Solution:- <br />
+- THIS SOLUTION IS INCOMPLETE, THIS CONTAINS  DATA STRUCTURE , HOW TO EXTRACT INFORMATION  AND HOW TO NAVIGATE TO DATA STRUCTURE IS DEFINED
 https://github.com/Roshankumar350/Advant-2022/tree/main/Advant-2022/Advant-2022/Day7
